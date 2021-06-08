@@ -1,11 +1,6 @@
-Instrucciones de compilación:
-Basicamente compila de la misma manera que el ejemplo del video con la diferencia que este programa fue llamado Visor.
-
 En la terminal usar:
 make visor
 ./bin/visor models/"file.obj"
-
-En el makefile se incluyen además los targets "visor4threads" y "visor24threads", ya que quise ver si habia alguna diferencia, pero aparentemente no, ya que probablemente se necesita optimizar el codigo para multithreading. Sería interesante ver como se puede correr el código en multithreading y cómo esto mejora la velocidad de compilación. Si no me equivoco el .obj que más me demoró en compilar fue neptune.obj con un tiempo aprox de 3 segs. (esto en un Ryzen9 3900X)
 
 Supuestos del código:
 Se usó el supuesto de que no hay caras de más de 5 lados, sin embargo implementar estos casos no es difícil. 
